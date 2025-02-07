@@ -2,6 +2,10 @@ package main
 
 import "testing"
 
+func TestMain(t *testing.T) {
+	main()
+}
+
 func TestSoma(t *testing.T) {
 	result := soma(2, 3)
 
